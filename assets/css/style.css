@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Metropolis Regular;
+}
+
+.navbar {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.navbar .brand,
+.navbar .search-bar {
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container .icon {
+    margin-top: 60px;
+}
+
+.homepage {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p.header {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p.footer {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+p.content {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+p.subcontent {
+    margin: 10px;
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.flex-container .forgot {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+.btn-sm {
+    width: 100px;
+    height: 36px;
+    background-color: white;
+    color: #9B9B9B;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: #9B9B9B;
+    border-radius: 24px;
+}
+
+.btn-lg {
+    margin-top: 50px;
+    width: 123px;
+    height: 48px;
+    background-color: white;
+    color: #9B9B9B;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: #9B9B9B;
+    border-radius: 4px;
+}
+
+.btn-xl {
+    margin-top: 26px;
+    width: 401px;
+    height: 48px;
+    background-color: #DB3022;
+    color: white;
+    font-size: 14px;
+    border-width: 0;
+    border-radius: 25px;
+}
+
+a {
+    color: #DB3022;
+    text-decoration: none;
+}
+
+input.lg {
+    margin-bottom: 16px;
+    width: 400px;
+    height: 48px;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: #9B9B9B;
+    border-radius: 4px;
+}
+
+input.search {
+    margin-bottom: 16px;
+    width: 507px;
+    height: 40px;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: #8E8E93;
+    border-radius: 23px;
+}
+
+.card-carousel {
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 456px;
+    height: 180px;
+
+}
+
+.card-category {
+    margin-top: 25px;
+    margin-right: 28px;
+    width: 206px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+.card-item {
+    margin-top: 25px;
+    margin-right: 28px;
+    width: 208px;
+    height: 278px;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+    border-radius: 8px;
+}
+
+ul {
+    margin: 10px;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 0;
+}
