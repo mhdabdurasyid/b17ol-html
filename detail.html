@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,238 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/font/font-metropolis.css">
 </head>
+
 <body>
-    
+    <nav class="navbar">
+        <div>
+            <img src="./assets/img/icon.png" alt="">
+        </div>
+        <div>
+            <form action="#">
+                <input class="search" type="text" id="search" name="search" placeholder="Search">
+                <button class="filter"><img src="./assets/img/filter.png" alt=""></button>
+            </form>
+        </div>
+        <div>
+            <a href="cart.html"><img src="./assets/img/cart.png" alt="" style="margin-top: 7px;"></a>
+        </div>
+        <div>
+            <a href="login.html"><button class="btn-sm"
+                    style="background-color: #DB3022;color: white;border-width: 0;">Login</button></a>
+            <a href="register.html"><button class="btn-sm">Sign Up</button></a>
+        </div>
+    </nav>
+
+    <div class="flex-container">
+        <div class="img-product">
+            <div class="highlight-img-product">
+                <img src="./assets/img/item1.png" alt="" width="100%" height="100%">
+            </div>
+            <div class="flex-container">
+                <div class="small-img-product">
+                    <img src="./assets/img/item1.png" alt="" width="100%" height="100%">
+                </div>
+                <div class="small-img-product">
+                    <img src="./assets/img/item2.png" alt="" width="100%" height="100%">
+                </div>
+                <div class="small-img-product">
+                    <img src="./assets/img/item3.png" alt="" width="100%" height="100%">
+                </div>
+                <div class="small-img-product">
+                    <img src="./assets/img/item4.png" alt="" width="100%" height="100%">
+                </div>
+                <div class="small-img-product">
+                    <img src="./assets/img/item5.png" alt="" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="select-product">
+            <div>
+                <p class="content" style="font-size: 28px;">Baju Muslim Pria</p>
+                <p class="subcontent" style="font-size: 16px;">Zalora Cloth</p>
+            </div>
+            <div>
+                <p class="subcontent" style="font-size: 16px;margin-top: 40px;">Price</p>
+                <p class="content" style="font-size: 33px;">$ 20.0</p>
+            </div>
+            <div>
+                <p class="content" style="font-size: 16px;margin-top: 40px;">Color</p>
+                <button class="color black"></button>
+                <button class="color red"></button>
+                <button class="color green"></button>
+                <button class="color blue"></button>
+            </div>
+            <div class="flex-container" style="justify-content: flex-start;">
+                <div>
+                    <p class="content" style="font-size: 16px;margin-top: 40px;">Size</p>
+                    <button class="color"><img src="./assets/img/minus.svg" alt=""></button>28<button class="color"><img src="./assets/img/plus.svg" alt=""></button>
+                </div>
+                <div style="margin-left: 80px;">
+                    <p class="content" style="font-size: 16px;margin-top: 40px;">Jumlah</p>
+                    <button class="color"><img src="./assets/img/minus.svg" alt=""></button>1<button class="color"><img src="./assets/img/plus.svg" alt=""></button>
+                </div>
+            </div>
+            <div style="margin-left: 10px;">
+                <button class="btn-lg detail">Chat</button>
+                <button class="btn-lg detail">Add Bag</button>
+                <button class="btn-xl" style="width: 330px;">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage">
+        <p class="content" style="font-size: 28px;">Informasi Produk</p>
+        <p class="content" style="font-size: 20px;margin-top: 40px;">Condition</p>
+        <p class="content" style="font-size: 20px;color: #DB3022;">New</p>
+        <p class="content" style="font-size: 20px;margin-top: 40px;">Description</p>
+        <p class="subcontent" style="font-size: 14px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br><br><br>Donec non magna rutrum, pellentesque augue eu, sagittis velit. Phasellus quis laoreet dolor.
+            Fusce nec pharetra quam. Interdum et
+            malesuada fames ac ante ipsum primis in faucibus. Praesent sed enim vel turpis blandit imperdiet ac ac
+            felis. Etiam tincidunt tristique placerat. Pellentesque a consequat mauris, vel suscipit ipsum. Donec ac
+            mauris vitae diam commodo vehicula. Donec quam elit, sollicitudin eu nisl at, ornare suscipit magna.
+            <br><br><br>Donec non magna rutrum, pellentesque augue eu, sagittis velit. Phasellus quis laoreet dolor.
+            Fusce nec pharetra
+            quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed enim vel turpis blandit
+            imperdiet ac ac felis. <br><br><br>In ultricies rutrum tempus. Mauris vel molestie orci.</p>
+        <hr>
+    </div>
+
+    <div class="homepage">
+        <p class="content">You can also like this</p>
+        <p class="subcontent">You've never seen it before!</p>
+        <div class="flex-container">
+            <div class="card-item">
+                <img src="./assets/img/item.png" alt="" width="100%">
+                <a href="detail.html">
+                    <p class="subcontent" style="color: black; font-size: 16px;">Men's formal suit - Black & White</p>
+                </a>
+                <p class="subcontent" style="color: #DB3022; font-size: 16px;">40 $</p>
+                <p class="subcontent">Zalora cloth</p>
+                <ul>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li>(10)</li>
+                </ul>
+            </div>
+            <div class="card-item">
+                <img src="./assets/img/item.png" alt="" width="100%">
+                <a href="detail.html">
+                    <p class="subcontent" style="color: black; font-size: 16px;">Men's formal suit - Black & White</p>
+                </a>
+                <p class="subcontent" style="color: #DB3022; font-size: 16px;">40 $</p>
+                <p class="subcontent">Zalora cloth</p>
+                <ul>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li>(10)</li>
+                </ul>
+            </div>
+            <div class="card-item">
+                <img src="./assets/img/item.png" alt="" width="100%">
+                <a href="detail.html">
+                    <p class="subcontent" style="color: black; font-size: 16px;">Men's formal suit - Black & White</p>
+                </a>
+                <p class="subcontent" style="color: #DB3022; font-size: 16px;">40 $</p>
+                <p class="subcontent">Zalora cloth</p>
+                <ul>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li>(10)</li>
+                </ul>
+            </div>
+            <div class="card-item">
+                <img src="./assets/img/item.png" alt="" width="100%">
+                <a href="detail.html">
+                    <p class="subcontent" style="color: black; font-size: 16px;">Men's formal suit - Black & White</p>
+                </a>
+                <p class="subcontent" style="color: #DB3022; font-size: 16px;">40 $</p>
+                <p class="subcontent">Zalora cloth</p>
+                <ul>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li>(10)</li>
+                </ul>
+            </div>
+            <div class="card-item">
+                <img src="./assets/img/item.png" alt="" width="100%">
+                <a href="detail.html">
+                    <p class="subcontent" style="color: black; font-size: 16px;">Men's formal suit - Black & White</p>
+                </a>
+                <p class="subcontent" style="color: #DB3022; font-size: 16px;">40 $</p>
+                <p class="subcontent">Zalora cloth</p>
+                <ul>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li>(10)</li>
+                </ul>
+            </div>
+            <div class="card-item">
+                <img src="./assets/img/item.png" alt="" width="100%">
+                <a href="detail.html">
+                    <p class="subcontent" style="color: black; font-size: 16px;">Men's formal suit - Black & White</p>
+                </a>
+                <p class="subcontent" style="color: #DB3022; font-size: 16px;">40 $</p>
+                <p class="subcontent">Zalora cloth</p>
+                <ul>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li>(10)</li>
+                </ul>
+            </div>
+            <div class="card-item">
+                <img src="./assets/img/item.png" alt="" width="100%">
+                <a href="detail.html">
+                    <p class="subcontent" style="color: black; font-size: 16px;">Men's formal suit - Black & White</p>
+                </a>
+                <p class="subcontent" style="color: #DB3022; font-size: 16px;">40 $</p>
+                <p class="subcontent">Zalora cloth</p>
+                <ul>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li>(10)</li>
+                </ul>
+            </div>
+            <div class="card-item">
+                <img src="./assets/img/item.png" alt="" width="100%">
+                <a href="detail.html">
+                    <p class="subcontent" style="color: black; font-size: 16px;">Men's formal suit - Black & White</p>
+                </a>
+                <p class="subcontent" style="color: #DB3022; font-size: 16px;">40 $</p>
+                <p class="subcontent">Zalora cloth</p>
+                <ul>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li><img src="./assets/img/Star.png" alt=""></li>
+                    <li>(10)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
