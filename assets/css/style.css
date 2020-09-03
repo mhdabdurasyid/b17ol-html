@@ -10,7 +10,7 @@ body {
     padding-bottom: 28px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .flex-container {
