@@ -159,7 +159,7 @@ input.search {
     border-width: 1px;
     border-color: #8E8E93;
     border-radius: 23px;
-    background: url(/assets/img/search.png) no-repeat;
+    background: url(/assets/img/search.svg) no-repeat;
     background-position: 97% 50%;
 }
 
